@@ -46,22 +46,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
-
-	<project>
-  ...
-  <build>
-    <!-- To define the plugin version in your parent POM -->
-    
- <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->
-<dependency>
+		<dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-resources-plugin</artifactId>
     <version>4.0.0-beta-1</version>
 </dependency>
+	</dependencies>
 
-        ...
-      </plugins>
+	<project>
+  ...
+  <build
     </pluginManagement>
     <!-- To use the plugin goals in your POM or parent POM -->
     <plugins>
