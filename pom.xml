@@ -52,13 +52,14 @@
   ...
   <build>
     <!-- To define the plugin version in your parent POM -->
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.2.5</version>
-        </plugin>
+    
+ <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>4.0.0-beta-1</version>
+</dependency>
+
         ...
       </plugins>
     </pluginManagement>
